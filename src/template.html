@@ -89,12 +89,11 @@
                 I recommend to have no more that 4 block of text
               -->
               <p class="about-wrapper__info-text">
-                I am a Web Developer who is passionate on continuing to improve
-                his craft.
+                I am a developer who enjoys working on interesting problems and improving my skills.
                 <br /><br />
                 I have been focused on developing an understanding of how to use
                 programming tools in order to achieve the desired results. My
-                focus has been with HTML, CSS, JavaScript, & React.
+                focus has been with JavaScript, TypeScript and React.
                 <br /><br />
                 I would love to be able to speak with you to see how I can help
                 your business and goals happen.
@@ -133,41 +132,91 @@
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
                 <!-- 1) project title -->
-                <h3 class="project-wrapper__text-title">Trendy Menu</h3>
+                <h3 class="project-wrapper__text-title">JS Note</h3>
                 <!-- 2) project info -->
                 <div>
                   <p class="mb-4">
-                    A real-time app for a seafood market built with React and
-                    Firebase. First you choose your restaurant name and if it is
-                    not taken then by signing in through either GitHub, Twitter
-                    or Facebook you can customize the options in real time.
+                    A jupyter notebook based markdown and javascript editor.
+                    You can import packages from npm (technically unpkg) directly
+                    in the editor. Your code is also evaluated in real time.
+                    The editor is built with typescript, react, redux, esbuild.
+                    You can try it yourself by running <span class="italics">npx jsnote-js serve</span> with node 14.
                   </p>
                 </div>
                 <!-- 3) project url  -->
                 <a
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="https://trendy-menu.herokuapp.com/"
+                  href="https://github.com/contrerasjorge/jsnote-jc"
                 >
-                  See Live
+                  See on github
                 </a>
                 <!-- 4) project repository url -->
-                <a
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/contrerasjorge/trendy-menu"
-                >
-                  Source Code
-                </a>
+                <!-- <a -->
+                  <!-- target="_blank" -->
+                  <!-- class="cta-btn text-color-main" -->
+                  <!-- href="https://github.com/contrerasjorge/trendy-menu" -->
+                <!-- > -->
+                  <!-- Source Code -->
+                <!-- </a> -->
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
                 <!-- 1) project url -->
-                <a href="https://trendy-menu.herokuapp.com/" target="_blank">
+                <a href="https://github.com/contrerasjorge/jsnote-jc" target="_blank">
                   <div data-tilt class="thumbnail rounded">
                     <!-- 2) project image path  -->
-                    <img class="img-fluid" src="./assets/trendy-menu.png" />
+                    <img class="img-fluid" src="./assets/jbook.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project block -->
+
+          <!-- Each .row is a project block -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <!-- 1) project title -->
+                <h3 class="project-wrapper__text-title">Meals To Go</h3>
+                <!-- 2) project info -->
+                <div>
+                  <p class="mb-4">
+                    A react native app for a fictitious restaurant finding app.
+                    You can create an account, search for restaurants on a map,
+                    save favorite restaurants and even process payments with stripe.
+                    The app uses expo, styled-components and even integrates with
+                    stripe. I've alread refactored parts of the app to typescript,
+                    see below for a link to that branch.
+                  </p>
+                </div>
+                <!-- 3) project url  -->
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/contrerasjorge/MealsToGo"
+                >
+                  See on Github
+                </a>
+                <!-- 4) project repository url -->
+                <a
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/contrerasjorge/MealsToGo/tree/ts"
+                >
+                  TypeScript Version
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image" style="width: 350px; height: auto;">
+                <!-- 1) project url -->
+                <a href="https://github.com/contrerasjorge/MealsToGo" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <!-- 2) project image path  -->
+                    <img class="img-fluid" src="./assets/mealstogo.png" />
                   </div>
                 </a>
               </div>
@@ -228,104 +277,48 @@
               <div class="project-wrapper__text">
                 <!-- 1) project title -->
                 <h3 class="project-wrapper__text-title">
-                  Smart Brain
+                  React Colors
                 </h3>
                 <!-- 2) project info -->
                 <div>
                   <p class="mb-4">
-                    A full-stack web application made with React and Express.
-                    The app first requires you to sign in. Then you can submit
-                    an image and it will detect any of the faces on said image.
-                    This is possible thanks to Clarifai's artificial
-                    intelligence API.
+                    This is a react app for creating color palettes, or
+                    choosing a premade palette. You can select a color, move it
+                    around, create your own custom color. The app is made with
+                    react and material-ui.
                   </p>
                 </div>
                 <!-- 3) project url -->
                 <a
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="https://smart-brain-jc.herokuapp.com/"
+                  href="https://color-palette-maker.herokuapp.com/"
                 >
                   See Live
                 </a>
                 <!-- 4) project repository url  -->
-                <div>
                   <a
                     target="_blank"
                     class="cta-btn text-color-main"
-                    href="https://github.com/contrerasjorge/smart-brain"
+                    href="https://github.com/contrerasjorge/colors-app"
                   >
-                    Source Code - Front End
+                    Source Code
                   </a>
-                  <a
-                    target="_blank"
-                    class="cta-btn text-color-main"
-                    href="https://github.com/contrerasjorge/smart-brain-api"
-                  >
-                    Source Code - Back End
-                  </a>
-                </div>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
                 <!-- 1) project url -->
-                <a href="https://smart-brain-jc.herokuapp.com/" target="_blank">
+                <a href="https://color-palette-maker.herokuapp.com/" target="_blank">
                   <div data-tilt class="thumbnail rounded">
                     <!-- 2) project image path -->
-                    <img class="img-fluid" src="./assets/smart-brain.png" />
+                    <img class="img-fluid" src="./assets/react-colors.png" />
                   </div>
                 </a>
               </div>
             </div>
           </div>
 
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <!-- 1) project title -->
-                <h3 class="project-wrapper__text-title">RoboFriends</h3>
-                <!-- 2) project info -->
-                <div>
-                  <p class="mb-4">
-                    A fun app that get robots from the RoboHash API and matches
-                    them with properties from a robot array within the source
-                    code. You can then search through the robots provided.
-                  </p>
-                </div>
-                <!-- 3) project url -->
-                <a
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://contrerasjorge.github.io/robofriends/"
-                >
-                  See Live
-                </a>
-                <!-- 4) project repository url  -->
-                <a
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/contrerasjorge/robofriends"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <!-- 1) project url -->
-                <a
-                  href="https://contrerasjorge.github.io/robofriends/"
-                  target="_blank"
-                >
-                  <div data-tilt class="thumbnail rounded">
-                    <!-- 2) project image path -->
-                    <img class="img-fluid" src="./assets/robofriends.png" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
           <!-- /END Project block -->
         </div>
         <!-- /END Personal projects -->
